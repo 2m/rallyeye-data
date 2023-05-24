@@ -1,8 +1,8 @@
 scalaVersion := "3.2.2"
 
 libraryDependencies ++= Seq(
-  "com.softwaremill.sttp.tapir" %% "tapir-http4s-server" % "1.3.0",
-  "com.softwaremill.sttp.tapir" %% "tapir-http4s-client" % "1.3.0",
+  "com.softwaremill.sttp.tapir" %% "tapir-http4s-server" % "1.4.0",
+  "com.softwaremill.sttp.tapir" %% "tapir-http4s-client" % "1.4.0",
   "org.http4s"                  %% "http4s-ember-server" % "0.23.19",
   "org.http4s"                  %% "http4s-ember-client" % "0.23.19",
   "io.chrisdavenport"           %% "mules-http4s"        % "0.4.0",
